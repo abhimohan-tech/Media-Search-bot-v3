@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/ErrorXbotz')
+                        InlineKeyboardButton('♻️𝙂𝙍𝙊𝙐𝙋♻️', url='https://t.me/ADMOVEIAD'),
+                        InlineKeyboardButton('⭕️𝘾𝙃𝘼𝙉𝙉𝙀𝙇⭕️', url='https://t.me/ADMOVEI')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -92,26 +92,25 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await cmd.reply_photo(
+            photo="https://telegra.ph/file/8f6f68930e0a921447f78.jpg",
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
+            [
                 [
-                    [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Source Code", url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2'),
-                    ],
-                   [
-                       InlineKeyboardButton("Update Channel", url='https://t.me/ErrorXbotz'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/ErrorXsupport'),
-                    ],
-                     [
-                        InlineKeyboardButton("About", callback_data="about")
-                    ]
+                    InlineKeyboardButton('𝑺𝑯𝑨𝑹𝑬🌐', url="https://t.me/Ma_autofilterbot?startgroup=true")
+                ],
+                [
+                    InlineKeyboardButton('DEV🤗', url="https://t.me/Lucifer_Devil_AD"),
+                    InlineKeyboardButton('CHANNEL', url="https://t.me/ADMOVEI")
+                ],
+                [
+                    InlineKeyboardButton('🔱𝐆𝐑𝐎𝐔𝐏🔱', url="https://t.me/ADMOVEIAD"),
+                    InlineKeyboardButton('OTT UPDATES', url="https://t.me/ONLY_CODES")
                 ]
-            )
+            ]
         )
+    )
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -196,18 +195,18 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2')
+            InlineKeyboardButton('♻️𝘾𝙃𝘼𝙉𝙉𝙀𝙇♻️', url='https://t.me/ADMOVEIAD'),
+            InlineKeyboardButton('⭕️𝙂𝙍𝙊𝙐𝙋⭕️', url='https://t.me/ADMOVEI')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Jinn-Of-Telegram/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer😎 : <a href='https://t.me/Lucifer_Devil_AD'<a꧁🌀▼𝗟𝘂ᴥ𝗰𝗶𝗳𝗲𝗿ʔ💠❍𝗠𝗼🔺ᗕ𝗿𝗻ಠ𝗶𝗴🕊️𝘀𝘁ಠ𝗮𝗿🌀▼꧂</a>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Support Group', url='https://t.me/ErrorXSupport')
+            InlineKeyboardButton('♻️𝘾𝙃𝘼𝙉𝙉𝙀𝙇♻️', url='https://t.me/ADMOVEIAD'),
+            InlineKeyboardButton('⭕️𝙂𝙍𝙊𝙐𝙋⭕️', url='https://t.me/ADMOVEI')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -271,7 +270,7 @@ async def showinfo(client, message):
         f"<b>UserID</b> : <code>{id}</code>\n"
         f"<b>Username Name</b> : {user_name}\n"
         f"<b>Permanant USER Link</b> : <a href='tg://user?id={id}'>Link ❗️</a>\n\n"
-        f"<b>@ErrorXBotz</b>",
+        f"<b>@ONLY_CODES</b>",
         quote=True,
         parse_mode="html"
     )
