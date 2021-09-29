@@ -84,6 +84,7 @@ async def start(bot, cmd):
             chat_id=cmd.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(
+                reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
@@ -92,26 +93,22 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await cmd.reply_photo(
+            photo="https://telegra.ph/file/1f0591a8d0c11b2e7783a.jpg",
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Source Code", url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2'),
+                        InlineKeyboardButton("😎ⓄⓌⓃⒺⓇ😎", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton("♻️ⒼⓇⓄⓊⓅ♻️", url="https://t.me/Latest_Movie_Media")
                     ],
-                   [
-                       InlineKeyboardButton("Update Channel", url='https://t.me/ErrorXbotz'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/ErrorXsupport'),
-                    ],
-                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                    [
+                        InlineKeyboardButton("⭕️𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️", url="https://t.me/Latest_Movie_Mediaa"),
+                        InlineKeyboardButton("💞Dev💞", url="https://t.me/Lucifer_DevilZ"),
+                      ]
                     ]
-                ]
-            )
-        )
+                 )
+              )
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
