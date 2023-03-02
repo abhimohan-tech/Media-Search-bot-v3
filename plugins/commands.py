@@ -193,8 +193,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1'),
+            InlineKeyboardButton('Source Code', url='https://t.me/FF_Bots')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/FF_Bots'>FF Group</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Jinn-Of-Telegram/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -203,8 +203,8 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Support Group', url='https://t.me/ErrorXSupport')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1'),
+            InlineKeyboardButton('Dev', url='https://t.me/FF_Bots')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
