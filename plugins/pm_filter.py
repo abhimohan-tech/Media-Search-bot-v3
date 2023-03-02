@@ -286,10 +286,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
+                    InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1'),
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/FF_Bots'>FF Group</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n 🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href='https://t.me/FF_OTT_Updates1'>🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
