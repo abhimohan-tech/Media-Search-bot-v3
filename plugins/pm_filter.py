@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                     InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/ErrorXBotz'),
+                     InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1'),
                     ]
                     ]
                 
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📥 More Bots 📥', url='https://t.me/ErrorXBotz'),
+                        InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1'),
                     ]
                     ]
                 
